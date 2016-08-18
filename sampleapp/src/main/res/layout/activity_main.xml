@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 scrolling_image_view:speed="3dp"
-                scrolling_image_view:src="@array/random_imgs"
+                scrolling_image_view:parallax_src="@array/random_imgs"
                 scrolling_image_view:randomness="@array/randomness" />
 
             <ImageView
@@ -56,14 +56,14 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 scrolling_image_view:speed="1dp"
-                scrolling_image_view:src="@drawable/scrolling_background" />
+                scrolling_image_view:parallax_src="@drawable/scrolling_background" />
 
             <com.q42.android.scrollingimageview.ScrollingImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 scrolling_image_view:speed="1.9dp"
-                scrolling_image_view:src="@drawable/scrolling_foreground" />
+                scrolling_image_view:parallax_src="@drawable/scrolling_foreground" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -89,14 +89,14 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 scrolling_image_view:speed="-1dp"
-                scrolling_image_view:src="@drawable/scrolling_background" />
+                scrolling_image_view:parallax_src="@drawable/scrolling_background" />
 
             <com.q42.android.scrollingimageview.ScrollingImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 scrolling_image_view:speed="-1.9dp"
-                scrolling_image_view:src="@drawable/scrolling_foreground" />
+                scrolling_image_view:parallax_src="@drawable/scrolling_foreground" />
         </FrameLayout>
 
         <TextView
@@ -129,35 +129,35 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 scrolling_image_view:speed=".3dp"
-                scrolling_image_view:src="@drawable/layer_3" />
+                scrolling_image_view:parallax_src="@drawable/layer_3" />
 
             <com.q42.android.scrollingimageview.ScrollingImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 scrolling_image_view:speed=".6dp"
-                scrolling_image_view:src="@drawable/layer_4" />
+                scrolling_image_view:parallax_src="@drawable/layer_4" />
 
             <com.q42.android.scrollingimageview.ScrollingImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 scrolling_image_view:speed=".9dp"
-                scrolling_image_view:src="@drawable/layer_5" />
+                scrolling_image_view:parallax_src="@drawable/layer_5" />
 
             <com.q42.android.scrollingimageview.ScrollingImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 scrolling_image_view:speed="1.5dp"
-                scrolling_image_view:src="@drawable/layer_6" />
+                scrolling_image_view:parallax_src="@drawable/layer_6" />
 
             <com.q42.android.scrollingimageview.ScrollingImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 scrolling_image_view:speed="1.7dp"
-                scrolling_image_view:src="@drawable/layer_7" />
+                scrolling_image_view:parallax_src="@drawable/layer_7" />
         </FrameLayout>
     </LinearLayout>
 </ScrollView>

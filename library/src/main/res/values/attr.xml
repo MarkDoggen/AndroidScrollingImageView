@@ -2,7 +2,7 @@
 <resources>
     <declare-styleable name="ParallaxView">
         <attr name="speed" format="dimension" />
-        <attr name="src" format="reference" />
+        <attr name="parallax_src" format="reference" />
         <attr name="sceneLength" format="integer" />
         <attr name="randomness" format="reference" />
         <attr name="initialState" format="enum">
